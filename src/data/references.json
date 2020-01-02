@@ -1,0 +1,49 @@
+{
+    "references": [
+        {
+            "section": "Mobile Links",
+            "items": [
+                {
+                    "referenceTitle": "Capability Deck",
+                    "referenceLink": "https://***"
+                }
+            ]
+        },
+        {
+            "section": "Mobile Estimation",
+            "items": [
+                {
+                    "referenceTitle": "Mobile Estimation Tool",
+                    "referenceLink": "https://**"
+                }
+            ]
+        },
+        {
+            "section": "Mobile DevOps",
+            "items": [
+                {
+                    "referenceTitle": "Mobile DevOps Overview",
+                    "referenceLink": "https://***"
+                }
+            ]
+        },
+        {
+            "section": "Training & Enablemen",
+            "items": [
+                {
+                    "referenceTitle": "AngularJS Training",
+                    "referenceLink": "https://***"
+                }
+            ]
+        },
+        {
+            "section": "Others",
+            "items": [
+                {
+                    "referenceTitle": "Client Innovation Center Operating Guidelines & Attachments",
+                    "referenceLink": "https://***"
+                }
+            ]
+        }
+    ]
+}

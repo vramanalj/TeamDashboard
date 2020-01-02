@@ -1,0 +1,9 @@
+{
+    "CLOUDANTDB_CONFIG":{
+        "username": "*bluemix",
+        "password": "**",
+        "host": "c*-bluemix.cloudant.com",
+        "port": 443,
+        "url": "https://*bluemix.cloudant.com"
+    }
+}

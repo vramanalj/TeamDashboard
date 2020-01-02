@@ -1,0 +1,24 @@
+{
+    "sessions": [
+        {
+            "speakerName": "Alpha Team",
+            "speakerEmailID": "bravo@domian.com",
+            "sessionTopic": "Wellness App",
+            "link": "https://**",
+            "sessionDate": "03 July 2019",
+            "sessionTimings": "12PM - 1PM",
+            "sessionLink": "http://i***",
+            "tag":"showcase"
+        },
+        {
+            "speakerName": "Alpha Centuri",
+            "speakerEmailID": "alpha@domian,com",
+            "sessionTopic": "Architect & Build apps ",
+            "link": "https://***",
+            "sessionDate": "26 June 2019",
+            "sessionTimings": "12PM - 1PM",
+            "sessionLink":"",
+            "tag":"cloud"
+        }
+    ]
+}

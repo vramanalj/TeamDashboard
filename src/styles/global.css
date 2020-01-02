@@ -1,0 +1,61 @@
+html, body, #___gatsby {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+div[role="group"][tabindex] {
+    height: 100%;
+}
+
+.menu{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  flex:1;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+  font-family: IBMPlexSans-Light;
+  font-size: 1.2em;
+}
+
+.menu a.active { 
+  font-family: IBMPlexSans-SemiBold;
+  text-shadow: 0 1px 20px #5CDB95;
+}
+
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+  }
+  @-webkit-keyframes bounce {
+    0%, 100% {
+      -webkit-transform: translateY(0);
+    }
+    50% {
+      -webkit-transform: translateY(-5px);
+    }
+  }
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }

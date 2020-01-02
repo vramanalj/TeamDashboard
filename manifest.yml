@@ -1,0 +1,10 @@
+applications:
+- path: ./public/
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  memory: 256M
+  instances: 1
+  name: MobileGarageDashboard
+  host: mobilegarage
+  disk_quota: 256M
+  gzip: on
+  force_https: true
