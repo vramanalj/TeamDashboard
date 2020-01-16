@@ -1,7 +1,7 @@
 const axios = require('axios');
-const cloudantURL="https://*-bluemix.cloudant.com";
-const credentialstobeEncoded = "*-bluemix"+ ":" + "**";
-let buff = new Buffer(credentialstobeEncoded);  
+const cloudantURL=process.env.URL;
+const credentialstobeEncoded = process.env.USERNAME+ ":" + process.env.PASSWORD;
+let buff = Buffer.from(credentialstobeEncoded);  
 let encodedString = buff.toString('base64');
 // const encodedString = btoa(credentialstobeEncoded);
 const httpOptions= {
@@ -15,7 +15,7 @@ const post = (endpoint,payload) => axios.post(`${cloudantURL}${endpoint}`, paylo
 
 exports.createPages = async ({ actions: { createPage } }) => {
 
-  const {data:allSessions} = await get(`/ktdata/_all_docs?include_docs=true`);
+  const {data:allSessions} = await get(`/sessionsdata/_all_docs?include_docs=true`);
   console.log(JSON.stringify(allSessions));
   // Create a page that lists all Pokémon.
   createPage({ 
